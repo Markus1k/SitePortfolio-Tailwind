@@ -442,10 +442,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   visibility: visible;
 }
 
-.float-left{
-  float: left;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -479,18 +475,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 15vh;
 }
 
-.mt-\[2vh\]{
-  margin-top: 2vh;
-}
-
-.mt-\[3rem\]{
-  margin-top: 3rem;
-}
-
-.mt-\[2rem\]{
-  margin-top: 2rem;
-}
-
 .mt-\[20vh\]{
   margin-top: 20vh;
 }
@@ -519,32 +503,40 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 16rem;
 }
 
-.h-\[3vh\]{
-  height: 3vh;
-}
-
-.h-\[5vh\]{
-  height: 5vh;
-}
-
-.h-\[5px\]{
-  height: 5px;
-}
-
-.h-\[25px\]{
-  height: 25px;
-}
-
-.h-\[32px\]{
-  height: 32px;
-}
-
-.h-\[10vh\]{
-  height: 10vh;
-}
-
 .h-\[8vh\]{
   height: 8vh;
+}
+
+.h-\[0\.1vw\]{
+  height: 0.1vw;
+}
+
+.h-\[0\.5vw\]{
+  height: 0.5vw;
+}
+
+.h-\[1vw\]{
+  height: 1vw;
+}
+
+.h-\[5vw\]{
+  height: 5vw;
+}
+
+.h-\[1rem\]{
+  height: 1rem;
+}
+
+.h-\[0\.5rem\]{
+  height: 0.5rem;
+}
+
+.h-\[8rem\]{
+  height: 8rem;
+}
+
+.h-\[4rem\]{
+  height: 4rem;
 }
 
 .w-\[50\%\]{
@@ -559,16 +551,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 16rem;
 }
 
-.w-\[5px\]{
-  width: 5px;
+.w-\[0\.1vw\]{
+  width: 0.1vw;
 }
 
-.w-\[25px\]{
-  width: 25px;
+.w-\[0\.5vw\]{
+  width: 0.5vw;
 }
 
-.w-\[32px\]{
-  width: 32px;
+.w-\[1vw\]{
+  width: 1vw;
+}
+
+.w-\[5vw\]{
+  width: 5vw;
+}
+
+.w-\[1rem\]{
+  width: 1rem;
+}
+
+.w-\[0\.5rem\]{
+  width: 0.5rem;
 }
 
 .cursor-pointer{
@@ -615,24 +619,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
-.pt-\[3rem\]{
-  padding-top: 3rem;
-}
-
-.pt-\[1rem\]{
-  padding-top: 1rem;
-}
-
-.pt-\[0\.5rem\]{
-  padding-top: 0.5rem;
-}
-
 .pt-\[0\.8rem\]{
   padding-top: 0.8rem;
 }
 
 .pt-\[2rem\]{
   padding-top: 2rem;
+}
+
+.pb-\[1rem\]{
+  padding-bottom: 1rem;
 }
 
 .text-center{
