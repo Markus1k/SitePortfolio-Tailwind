@@ -491,6 +491,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2rem;
 }
 
+.mt-\[20vh\]{
+  margin-top: 20vh;
+}
+
 .inline-block{
   display: inline-block;
 }
