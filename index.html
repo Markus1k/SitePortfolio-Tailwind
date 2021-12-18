@@ -1,0 +1,111 @@
+<!doctype html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="sweetalert2.min.js"></script>
+  <link href="/dist/output.css" rel="stylesheet">
+
+</head>
+
+<header class="bg-lime-500 h-16 font-body ">
+  <nav class=" text-center text-white text-[20px]">
+    <ul class="mx-auto">
+      <li class="inline-block hover:text-green-900 ease-in-out duration-500 mr-[2rem] mt-[1rem] ">
+        <a id="myBtn" href="#"> О сайте </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+
+
+
+
+<body class="font-body bg-green-bg-color">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="bg-[#fefefe] w-[50%] mt-[40vh] align-middle mx-auto rounded-md text-center">
+    <span class="close align-top mr-[0.5rem]">&times;</span>
+    <h3 class="text-center text-[2rem]">О сайте</h3>
+    <p>Сайт был написан для ознакомления с <a class="text-blue-500" href="https://tailwindcss.com/">Tailwindcss</a> и практики в создании сайтов.<br></p>
+  </div>
+
+</div>
+
+
+
+<div>
+  <h4 class="w-[20rem] mt-[8vh] text-center mx-auto text-[5rem]">Muphlon</h4>
+  <p class="w-64 text-center mx-auto italic">" Я у мамы, веб разработчик! "</p>
+</div>
+
+  <h3 class="text-[50px] text-center mt-[5rem]">Мои проекты</h3>
+
+  <div class="grid grid-cols-3 gap-4 portrait:grid-cols-1 ">
+    
+  <div class="mx-auto mt-[15vh] w-64">
+    <div class="flex flex-col w-64 ">
+      <img src="src/test.jpg" href="#" class="rounded-full w-64 h-64 inline-block drop-shadow-md " alt="">
+    <h2 class="inline-block font-bold w-64 text-[2rem]   text-center ">Этот сайт</h2>
+    <p class="inline-block text-center w-64 ">Не, ну а что? Работ у меня не так уж много, тем более, сайт выходит очень даже ничего! Плюс, я даже не очень представляю что еще сюда можно запихнуть, тем более я знаю вообще мизер всего что бы это перечислять</p>
+    </div>
+  </div>
+  <div class="mx-auto mt-[15vh] w-64">
+    <div class="flex flex-col w-64">
+      <a class="cursor-pointer" href="https://muphlon.itch.io/slowdodge" target="_blank"><img src="https://mangalib.me/uploads/users/550187/JuGC0pry23.jpg" class="rounded-full w-64 h-64 inline-block drop-shadow-md" alt=""></a>
+    <h2 class="inline-block font-bold w-64 text-[2rem]   text-center ">Slow Dodge</h2>
+    <p class="inline-block text-center w-64 ">Маленькая игра на телефон которую я все-таки довёл до конца. Не считая кривого кода и того факта, что я не смог залить её на Google Play, то получилось не плохо.</p>
+    </div>
+  </div>
+  <div class="mx-auto mt-[15vh] w-64">
+    <div class="flex flex-col w-64">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiOLhOECxIiYUJd2F-IcCOW4Ak6RV1gJXJUaVwHm-4AChQo8vSfwIzORsE6HPl3KTWvdI&usqp=CAU" class="rounded-full w-64 h-64 inline-block drop-shadow-md " alt="">
+    <h2 class="inline-block font-bold w-64 text-[2rem]   text-center ">Сhatton.rf.gd</h2>
+    <p class="inline-block text-center w-64 ">Проект которого на данный момент не существует. Надеюсь в скором времени это измениться</p>
+    </div>
+    
+  </div>
+  </div>
+
+
+ 
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on the button, open the modal
+    btn.onclick = function() {
+      modal.style.visibility = "visible";
+      
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.visibility = "hidden";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.visibility = "hidden";
+      }
+    }
+    // Dark mode?
+    
+    </script>
+
+<footer class="bg-gray-500 mt-[2vh] text-center text-white h-[3vh]">
+  Made with ❤️ by Muphlon
+</footer>
+</body>
+
+</html>
